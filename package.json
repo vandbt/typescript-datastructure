@@ -4,7 +4,7 @@
   "description": "Write DataStructure by Typescript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/**.spec.ts"
+    "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=TestResults"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "@types/node": "^10.0.2",
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
+    "mochawesome": "^3.0.2",
     "ts-node": "^6.0.2",
     "typings": "^2.1.1"
   }
