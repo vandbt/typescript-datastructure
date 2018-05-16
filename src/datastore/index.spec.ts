@@ -21,33 +21,59 @@ describe('DataStore<T>', () => {
         });
 
         it('should return 0 when 0 added at index 0', () => {
-            list.add(0, 0);
+            list.add(0);
 
-            expect(list.get(0)).to.equal(0);
+            expect(list.getElement(0)).to.equal(0);
         });
 
         it('should return 1 when 1 added at index 1', () => {
-            list.add(1, 1);
+            list.add(1);
 
-            expect(list.get(1)).to.equal(1);
+            expect(list.getElement(1)).to.equal(1);
         });
 
-        it('should return 10 when 10 added at index 10', () => {
-            list.add(10, 10);
-            expect(list.get(10)).to.equal(10);
+        it('should throw when get out of bound index', () => {
+            expect(() => list.getElement(100)).to.throw();
+        });
+    });
+
+
+    describe('#insert()', () => {
+
+        let list;
+        before(() => {
+            list = new DataStore<Number>();
         });
 
-        it('should return 10 when 20 added at index 10 and get(11)', () => {
-            list.add(10, 20);
-            expect(list.get(11)).to.equal(10);
+        it('should return 0 when 0 inserted at index 0', () => {
+            list.insert(0, 0);
+
+            expect(list.getElement(0)).to.equal(0);
+        });
+
+        it('should return 1 when 1 inserted at index 1', () => {
+            list.insert(1, 1);
+
+            expect(list.getElement(1)).to.equal(1);
+        });
+
+        it('should return 10 when 10 inserted at index 10', () => {
+            list.insert(10, 10);
+            expect(list.getElement(10)).to.equal(10);
+        });
+
+        it('should return 10 when 20 inserted at index 10 and getElement(11)', () => {
+            list.insert(10, 20);
+            expect(list.getElement(11)).to.equal(10);
         });
 
         it('should return length 12 when length()', () => {
+            console.log(list.toString());
             expect(list.length()).to.equal(12);
         });
 
         it('should throw when get out of bound index', () => {
-            expect(() => list.get(100)).to.throw();
+            expect(() => list.getElement(100)).to.throw();
         });
     });
 
