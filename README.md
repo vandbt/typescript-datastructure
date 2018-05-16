@@ -12,6 +12,14 @@ npm test
 ## Unit Test with Code coverage
 npm run coverage
 
+## Deploy
+Travis-CI to Github
+Pages:
+https://docs.travis-ci.com/user/deployment/releases/
+
+Releases:
+https://docs.travis-ci.com/user/deployment/releases/
+
 # See also
 ## Config Typescript project for VSCode
 https://code.visualstudio.com/docs/languages/typescript
