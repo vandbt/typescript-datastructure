@@ -4,13 +4,25 @@
   "description": "Write DataStructure by Typescript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=TestResults"
+    "setup": "npm install",
+    "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=TestResults",
+    "coverage": "nyc npm test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vandbt/typescript-datastructure.git"
   },
-  "keywords": [],
+  "keywords": [
+    "datastructure",
+    "typescript",
+    "mocha",
+    "chai",
+    "istanbul",
+    "sourcemaps",
+    "node",
+    "npm scripts",
+    "tsc"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -23,9 +35,32 @@
     "@types/mocha": "^5.2.0",
     "@types/node": "^10.0.2",
     "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
     "mocha": "^5.1.1",
     "mochawesome": "^3.0.2",
+    "nyc": "^11.8.0",
     "ts-node": "^6.0.2",
     "typings": "^2.1.1"
+  },
+  "nyc": {
+    "include": [
+      "src/*.ts",
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "typings",
+      "**/*.d.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "json",
+      "html"
+    ],
+    "all": true
   }
 }
