@@ -1,3 +1,10 @@
+/**
+ * DataStore
+ * This class is not for Re-inventing the wheel.
+ * This class provide abstract storage interface and hiding raw storage information.
+ * @class DataStore
+ * @template T 
+ */
 class DataStore<T> {
   data: T[] = [];
   constructor(length?: number) {
@@ -21,6 +28,17 @@ class DataStore<T> {
   remove(element: T): boolean {
     var pos = this.find(element);
 
+    if (pos > -1) {
+      this.data.splice(pos, 1);
+      return true;
+    }
+    return false;
+  }
+  removeAt(pos: number): boolean {
+    if (pos < 0 || pos >= this.length()) {
+      throw "Error out of bound";
+    }
+    
     if (pos > -1) {
       this.data.splice(pos, 1);
       return true;
