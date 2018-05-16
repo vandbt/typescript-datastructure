@@ -9,7 +9,8 @@
     "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=TestResults",
     "test-only": "npm test",
     "coverage": "nyc npm test",
-    "typedoc": "",
+    "docs": "npm run typedoc -- --options typedoc.json --exclude 'src/**/*.spec.ts' ./src/",
+    "typedoc": "typedoc",
     "pack": ""
   },
   "repository": {
@@ -44,6 +45,7 @@
     "mochawesome": "^3.0.2",
     "nyc": "^11.8.0",
     "ts-node": "^6.0.2",
+    "typedoc": "^0.11.1",
     "typings": "^2.1.1"
   },
   "nyc": {

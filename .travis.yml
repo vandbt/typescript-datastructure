@@ -8,5 +8,11 @@ script:
   - npm run test-only
 
 after_success:
-  - npm run typedoc
+  - npm run docs
   - npm pack
+
+# safelist
+branches:
+  only:
+  - master
+  - dev
