@@ -107,7 +107,7 @@ class List<T> {
     print(): void {
         for (var index: number = 0; index < this.items.length; index++) {
             const element = this.items[index];
-            global.console.log('index %d, value %s', index, element);
+            // global.console.log('index %d, value %s', index, element);
         }
     }
 

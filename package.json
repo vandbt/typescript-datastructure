@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm install",
+    "build": "tsc -p tsconfig.json",
     "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=TestResults",
     "coverage": "nyc npm test"
   },

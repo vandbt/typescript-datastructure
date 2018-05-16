@@ -3,7 +3,10 @@
         "module": "commonjs",
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "dist",
+        "typeRoots" : ["../node_modules/@types"]
     },
     "include": [
         "src/**/*"
