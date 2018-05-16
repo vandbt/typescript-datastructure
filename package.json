@@ -7,7 +7,10 @@
     "setup": "npm install",
     "build": "tsc -p tsconfig.json",
     "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=TestResults",
-    "coverage": "nyc npm test"
+    "test-only": "npm test",
+    "coverage": "nyc npm test",
+    "typedoc": "",
+    "pack": ""
   },
   "repository": {
     "type": "git",
