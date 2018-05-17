@@ -3,7 +3,7 @@ import DataStore from "../datastore";
 /**
  * Represents a first-in, first-out collection of objects.
  * 
- * @class Queue
+ * @class Queue<T>
  * @template T 
  */
 class Queue<T> {
@@ -25,8 +25,8 @@ class Queue<T> {
      * @param {T} element 
      * @memberof Queue
      */
-    public enqueue(element: T) {
-        throw "Not implemented.";
+    public enqueue(element: T): void {
+        this.dataStore.add(element);
     }
 
     /**
@@ -36,7 +36,10 @@ class Queue<T> {
      * @memberof Queue
      */
     public dequeue(): T {
-        throw "Not implemented.";
+        var pos = 0;
+        const item = this.dataStore.getElement(pos);
+        this.dataStore.removeAt(pos);
+        return item;
     }
 
     /**
@@ -46,7 +49,8 @@ class Queue<T> {
      * @memberof Queue
      */
     public peek(): T {
-        throw "Not implemented.";
+        var pos = 0;
+        return this.dataStore.getElement(pos);
     }
 
     /**
@@ -56,7 +60,7 @@ class Queue<T> {
      * @memberof Queue
      */
     public length(): number {
-        throw "Not implemented.";
+        return this.dataStore.length();
     }
 
     /**
@@ -65,8 +69,8 @@ class Queue<T> {
      * @returns {boolean} 
      * @memberof Queue
      */
-    public clear(): boolean {
-        throw "Not implemented.";
+    public clear(): void {
+        this.dataStore.clear()
     }
     /**
      * returns collection empty or not.
@@ -75,7 +79,7 @@ class Queue<T> {
      * @memberof Queue
      */
     public isEmpty(): boolean {
-        throw "Not implemented.";
+        return this.dataStore.isEmpty();
     }
 }
 
