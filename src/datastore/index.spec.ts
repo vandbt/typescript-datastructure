@@ -68,7 +68,6 @@ describe('DataStore<T>', () => {
         });
 
         it('should return length 12 when length()', () => {
-            console.log(list.toString());
             expect(list.length()).to.equal(12);
         });
 
