@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "npm install",
     "build": "tsc -p tsconfig.json",
-    "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=testResults",
+    "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=testResults,reportName=index.html",
     "test-only": "npm test",
     "coverage": "nyc npm test",
     "docs": "npm run typedoc -- --options typedoc.json --exclude 'src/**/*.spec.ts' ./src/",
