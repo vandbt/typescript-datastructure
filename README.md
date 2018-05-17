@@ -1,6 +1,6 @@
 # Typescript datastructure
 
-This is Typescript Data Structure prject, but It's not aim to Fast, Light, and Powerful implementation.
+This is Typescript Data Structure project, but It's not aim to Fast, Light, and Powerful implementation.
 
 ## Motivation
 This project aims to show how Typescript (Typed Language) solves well-known software problem. That's why This project implements data structures.
@@ -18,7 +18,7 @@ Build / Test Automation ( with Code coverage Report) would shows current status 
 npm run setup
 ```
 
-## Running the tests
+### Running the tests
 
 ```
 npm test
