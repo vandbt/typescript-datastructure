@@ -8,7 +8,7 @@
     "build": "tsc -p tsconfig.json",
     "test": "mocha -r ts-node/register src/**/**.spec.ts --reporter mochawesome --reporter-options reportDir=testResults,reportFilename=index",
     "test-only": "npm test",
-    "coverage": "nyc npm test",
+    "test-with-coverage": "nyc npm test",
     "docs": "npm run typedoc -- --options typedoc.json --exclude 'src/**/*.spec.ts' ./src/",
     "typedoc": "typedoc",
     "pack": ""
@@ -47,26 +47,5 @@
     "ts-node": "^6.0.2",
     "typedoc": "^0.11.1",
     "typings": "^2.1.1"
-  },
-  "nyc": {
-    "include": [
-      "src/*.ts",
-      "src/**/*.ts"
-    ],
-    "exclude": [
-      "typings",
-      "**/*.d.ts"
-    ],
-    "extension": [
-      ".ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ],
-    "reporter": [
-      "json",
-      "html"
-    ],
-    "all": true
   }
 }
