@@ -6,9 +6,11 @@ This is Typescript Data Structure project, but It's not aim to Fast, Light, and 
 This project aims to show how Typescript (Typed Language) solves well-known software problem. That's why This project implements data structures.
 
 This project want shows OOP(Object-Oritend-Programming) with Typescript.
+
 This project want shows modern develoment methodology TDD(Test-Driven Development), BDD(Behvior-Driven Development).
 
 This project want shows How to manage software health continuosly.
+
 Build / Test Automation ( with Code coverage Report) would shows current status of software health.
  
 
@@ -56,8 +58,14 @@ npm run docs
 
 This project setup deployments automatically. [Travis-CI](https://travis-ci.org/) and [Github release](https://github.com/vandbt/typescript-datastructure/releases).
 
+![travis](https://github.com/vandbt/typescript-datastructure/master/blob/travis-ci.png)
+
 Testing reports publish on [Github pages](https://vandbt.github.io/typescript-datastructure/).
+![testing reports](https://github.com/vandbt/typescript-datastructure/master/blob/testing.png)
+
 Coverage reports publish on [Github pages under ./coverage](https://vandbt.github.io/typescript-datastructure/coverage).
+
+![coverage reports](https://github.com/vandbt/typescript-datastructure/master/blob/coverage.png)
 
 ## Built With
 
