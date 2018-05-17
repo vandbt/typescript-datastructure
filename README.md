@@ -58,14 +58,14 @@ npm run docs
 
 This project setup deployments automatically. [Travis-CI](https://travis-ci.org/) and [Github release](https://github.com/vandbt/typescript-datastructure/releases).
 
-![travis](https://github.com/vandbt/typescript-datastructure/master/blob/travis-ci.png)
+![travis](https://github.com/vandbt/typescript-datastructure/blob/master/travis-ci.png)
 
 Testing reports publish on [Github pages](https://vandbt.github.io/typescript-datastructure/).
-![testing reports](https://github.com/vandbt/typescript-datastructure/master/blob/testing.png)
+![testing reports](https://github.com/vandbt/typescript-datastructure/blob/master/testing.png)
 
 Coverage reports publish on [Github pages under ./coverage](https://vandbt.github.io/typescript-datastructure/coverage).
 
-![coverage reports](https://github.com/vandbt/typescript-datastructure/master/blob/coverage.png)
+![coverage reports](https://github.com/vandbt/typescript-datastructure/blob/master/coverage.png)
 
 ## Built With
 
