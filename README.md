@@ -4,13 +4,18 @@ Write DataStructure by Typescript.
 ## Datastructure
 Queue, Stack, List, LinkedList and Sort.
 
-
 ## Test
 ### Unit Test only
 npm test
 
 ## Unit Test with Code coverage
 npm run coverage
+
+### see Travis-CI published Testing reports
+https://vandbt.github.io/typescript-datastructure/
+
+## Continuos Intergration (Travis-CI)
+Makes developer keep focusing on develop business logic.
 
 ## Deploy
 Travis-CI to Github
