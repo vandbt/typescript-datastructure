@@ -24,14 +24,14 @@ before_deploy:
       - git config --local user.email "sharkspin@gmail.com"
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: master
+  - provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep-history: true
+    on:
+      branch: master
 
-  provider: releases
+  - provider: releases
     api_key: $GITHUB_TOKEN
     file_glob: true
     file: dist/**/*
