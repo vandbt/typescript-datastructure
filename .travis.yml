@@ -1,41 +1,35 @@
 language: nodejs
-
 before_script:
-  - npm run setup
-  - npm run build
-
+- npm run setup
+- npm run build
 script:
-  - npm run test-only
-
+- npm run test-only
 after_success:
-  - npm run docs
-  - npm pack
-
-# safelist
+- npm run docs
+- npm pack
 branches:
   only:
   - master
   - dev
-
-# deployment
 before_deploy:
-      # Set up git user name and tag this commit
-      - git config --local user.name "vandbt"
-      - git config --local user.email "sharkspin@gmail.com"
-      - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+- git config --local user.name "vandbt"
+- git config --local user.email "sharkspin@gmail.com"
+- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
-  - provider: pages
-    skip-cleanup: true
-    local_dir: docs/
-    github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    keep-history: true
-    on:
-      branch: dev
-
-  - provider: releases
-    api_key: $GITHUB_TOKEN
-    file_glob: true
-    file: dist/**/*
-    skip_cleanup: true
-    on:
-      tags: true
+- provider: pages
+  skip-cleanup: true
+  local_dir: docs/
+  github-token: "$GITHUB_TOKEN"
+  keep-history: true
+  on:
+    branch: dev
+- provider: releases
+  api_key: "$GITHUB_TOKEN"
+  file_glob: true
+  file: dist/**/*
+  skip_cleanup: true
+  on:
+    tags: true
+env:
+  global:
+    secure: HLEZ82xNVyslvbTI4JWcgxV2Tg8kHuUKQ0wIfTOLWZVCso8q0DhlUUSrI1AQ0LO8RRQqusohhOuJkXPgQrKmk+Gt6DcXB0gmfCJlL6VyHaLe1Uzdp2Z2hACUCiW8p3bhD0ShTFXUCtfRoHCSezYu30kkhEhMytwQH517BnmtD6gWLxAlkYolGSky84GtY8hac+5eqDzrFsZGFjzNZzQrL71sgvDRAWqGyj+2m0GPCu82mJ1UlWCAQZ77eWqO0EPAEPbgqgg4Yx9tSgiQUe4Jbe2pyrsV5bY4JbZjML46+fzcxgHxI58+VvADS3iqS0fsvSnoVOmWJKlulkc/oBoy/vKn5bPSF0z3sHGFCA83nbtUxKt/BS/kjnXIpZ2enaB58fhQgOUPo9NKZ4tooj91cOxMpTQ70bfErwJOFl4nFVihesDxF+TUFlDOaGxPc5xdB7ZU7BaRiFkrevwyCU3knOWXOBSh+CWgcPWCbTAdEzTypBI7fSWXDASBKrFTHwroUpWb1LkMgrYK5mNn1pxLCPSdXLk3UUVQWgYHymasvKBjHyR4f71WTKHHxivpTW3GgeQXFGjB6R9LPYhl85r8e0rKd/eIfj6/J/tLL9yDYydqGfNsLH+l6ekuFGKHgskEMDNkcbgi7ECgYr30aJBASIY1qic6uR8EOAyxJnqLZ18=
