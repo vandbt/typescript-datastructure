@@ -2,6 +2,16 @@ export interface ILinkedListNode<T> {
   element: T;
   next: ILinkedListNode<T>;
 }
+
+class LinkedListNode<T> implements ILinkedListNode<T> {
+  element: T;
+  next: ILinkedListNode<T>;
+  constructor(elememnt?: T, next?: ILinkedListNode<T>) {
+    this.element = elememnt;
+    this.next = next || null;
+  }
+}
+
 /**
  * Specifies the element type of the linked list.
  *
@@ -9,10 +19,15 @@ export interface ILinkedListNode<T> {
  * @template T
  */
 class LinkedList<T> {
-  protected fist: ILinkedListNode<T>;
-  protected last: ILinkedListNode<T>;
+  protected count: number;
+  protected firstNode: ILinkedListNode<T>;
+  protected lastNode: ILinkedListNode<T>;
 
-  constructor() {}
+  constructor() {
+    this.count = 0;
+    this.firstNode = null;
+    this.lastNode = null;
+  }
 
   /**
    * Adds a new node containing the specified value after the specified existing node in the LinkedList<T>.
@@ -22,7 +37,24 @@ class LinkedList<T> {
    * @memberof LinkedList
    */
   public add(element: T, index?: number): void {
-    throw "Not Implemented";
+    let newNode: ILinkedListNode<T> = new LinkedListNode(element);
+
+    if (index == 0) {
+      if (this.firstNode == null) {
+        this.firstNode = newNode;
+        this.lastNode = newNode;
+        // this.firstNode.next = this.lastNode;
+      } else {
+        this.lastNode.next = newNode;
+        this.lastNode = newNode;
+      }
+    } else {
+      let current = this.getNode(index);
+      newNode.next = current.next;
+      current.next = newNode;
+    }
+
+    this.count++;
   }
 
   /**
@@ -30,8 +62,53 @@ class LinkedList<T> {
    *
    * @memberof LinkedList
    */
-  public remove(): void {
-    throw "Not Implemented";
+  public remove(index?: number): void {
+    let current = this.firstNode;
+    let previous = null;
+    let pos = 0;
+
+    // removing first item
+    if (index == 0) {
+      this.firstNode = current.next;
+    } else {
+      while (pos++ < index) {
+        previous = current;
+        current = current.next;
+      }
+      previous.next = current.next;
+    }
+
+    this.count--;
+  }
+
+  public removeLast(): void {
+    let current = this.firstNode;
+
+    while (current.next != null) {
+      if (current.next.next == null) {
+        break;
+      }
+      current = current.next;
+    }
+    current.next = null;
+
+    this.count--;
+  }
+
+  public get(index: number): T {
+    return this.getNode(index).element;
+  }
+
+  public getNode(index: number): ILinkedListNode<T> {
+    let current = this.firstNode;
+    while (index != 0) {
+      if (current.next == null) {
+        break;
+      }
+      current = current.next;
+      index--;
+    }
+    return current;
   }
 
   /**
@@ -41,7 +118,11 @@ class LinkedList<T> {
    * @memberof LinkedList
    */
   public isEmpty(): boolean {
-    throw "Not Implemented";
+    let ret = false;
+    if (this.firstNode === null) {
+      ret = true;
+    }
+    return ret;
   }
 
   /**
@@ -51,7 +132,7 @@ class LinkedList<T> {
    * @memberof LinkedList
    */
   public size(): number {
-    throw "Not Implemented";
+    return this.count;
   }
 
   /**
@@ -60,7 +141,9 @@ class LinkedList<T> {
    * @memberof LinkedList
    */
   public clear(): void {
-    throw "Not Implemented";
+    this.count = 0;
+    this.firstNode = null;
+    this.lastNode = null;
   }
 
   public getName(): string {
