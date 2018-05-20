@@ -5,9 +5,9 @@
     "passes": 54,
     "pending": 0,
     "failures": 0,
-    "start": "2018-05-17T23:58:37.921Z",
-    "end": "2018-05-17T23:58:37.997Z",
-    "duration": 76,
+    "start": "2018-05-20T04:04:03.952Z",
+    "end": "2018-05-20T04:04:04.024Z",
+    "duration": 72,
     "testsRegistered": 54,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "2733ecd7-0a8c-49b6-8986-872ef435b3a1",
+    "uuid": "1ec469ff-5ff3-47f9-89ab-8b5bc5c9c54c",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,7 +28,7 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "aa86de63-158b-423c-89e6-301f8b0c6b0c",
+        "uuid": "8c8d7262-3819-4cab-b4da-2b8549e92af6",
         "title": "DataStore<T>",
         "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
         "file": "/src/datastore/index.spec.ts",
@@ -37,7 +37,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "6e1174ab-7a25-4560-b4fa-9174f3ac2581",
+            "uuid": "1dbf1b28-a0d0-4c9d-a550-b931ccf0b98a",
             "title": "#getName()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
             "file": "/src/datastore/index.spec.ts",
@@ -57,14 +57,14 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "5bb798f3-2092-4551-92b7-b9f891001086",
+                "uuid": "40fe0f45-4999-43a6-b219-13e5d9e53ac4",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "5bb798f3-2092-4551-92b7-b9f891001086"
+              "40fe0f45-4999-43a6-b219-13e5d9e53ac4"
             ],
             "failures": [],
             "pending": [],
@@ -75,7 +75,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "5230f5f1-14be-41f7-b39b-365f02af08a3",
+            "uuid": "2b7ccb1f-4305-421c-b83b-58af8d7393ca",
             "title": "#add()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
             "file": "/src/datastore/index.spec.ts",
@@ -91,7 +91,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "c231e09f-b324-45dc-aa99-67e11511ec54",
+                "uuid": "16dce394-4b0c-47b6-91d0-e0beda0522d3",
                 "isHook": true,
                 "skipped": false
               }
@@ -111,7 +111,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "8621d99c-cfab-49e4-8353-ad95c602fd3b",
+                "uuid": "e510bf12-d672-4399-b31e-b922b221a0c8",
                 "isHook": false,
                 "skipped": false
               },
@@ -128,7 +128,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "0361f429-73ae-4a25-bf66-ba6acb159b59",
+                "uuid": "18f29dec-0118-4b6a-b67c-4c7c5bf78739",
                 "isHook": false,
                 "skipped": false
               },
@@ -145,16 +145,16 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "db0b8675-3394-41f9-825e-d8b55ed36250",
+                "uuid": "032cfa10-a590-42c2-a4e6-5837d3797bc7",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "8621d99c-cfab-49e4-8353-ad95c602fd3b",
-              "0361f429-73ae-4a25-bf66-ba6acb159b59",
-              "db0b8675-3394-41f9-825e-d8b55ed36250"
+              "e510bf12-d672-4399-b31e-b922b221a0c8",
+              "18f29dec-0118-4b6a-b67c-4c7c5bf78739",
+              "032cfa10-a590-42c2-a4e6-5837d3797bc7"
             ],
             "failures": [],
             "pending": [],
@@ -165,7 +165,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "93733b9d-b38b-49e2-9444-ad480d566356",
+            "uuid": "a40fed80-ca47-45c4-873d-cd82e12e17d2",
             "title": "#insert()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
             "file": "/src/datastore/index.spec.ts",
@@ -181,7 +181,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "e3e22918-0498-4ab8-b24f-91f2e27c039c",
+                "uuid": "55baf385-8488-4cef-a618-0c6e8f777c2f",
                 "isHook": true,
                 "skipped": false
               }
@@ -201,7 +201,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "0362b415-03fc-494c-86d5-1fb7bb7649c8",
+                "uuid": "e6df81e6-4b5a-44d7-9545-4e695953126b",
                 "isHook": false,
                 "skipped": false
               },
@@ -218,7 +218,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "3d113bd7-e150-403f-90c4-e755e44b60bd",
+                "uuid": "7d56d673-cb2e-4fd2-b4aa-89c5ee4bfbbf",
                 "isHook": false,
                 "skipped": false
               },
@@ -235,7 +235,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "3cfaa14b-7521-4398-8fe2-cec900875249",
+                "uuid": "11215b48-53d1-4d1e-9745-5237b66cc8f5",
                 "isHook": false,
                 "skipped": false
               },
@@ -252,7 +252,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "29b75c3d-447b-46a1-becd-350e6fe276f4",
+                "uuid": "49108da5-2273-450f-9675-23471fc5fe6b",
                 "isHook": false,
                 "skipped": false
               },
@@ -269,7 +269,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "3cb9151c-0986-4f68-b563-814e089eba84",
+                "uuid": "b7de6f81-b260-40c8-92b9-87dbd1e2b061",
                 "isHook": false,
                 "skipped": false
               },
@@ -286,19 +286,19 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2d5b4ab9-332f-4fd7-a969-223add6ba38a",
+                "uuid": "355cd353-5e41-45d6-8e48-5ccb5c478f0b",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "0362b415-03fc-494c-86d5-1fb7bb7649c8",
-              "3d113bd7-e150-403f-90c4-e755e44b60bd",
-              "3cfaa14b-7521-4398-8fe2-cec900875249",
-              "29b75c3d-447b-46a1-becd-350e6fe276f4",
-              "3cb9151c-0986-4f68-b563-814e089eba84",
-              "2d5b4ab9-332f-4fd7-a969-223add6ba38a"
+              "e6df81e6-4b5a-44d7-9545-4e695953126b",
+              "7d56d673-cb2e-4fd2-b4aa-89c5ee4bfbbf",
+              "11215b48-53d1-4d1e-9745-5237b66cc8f5",
+              "49108da5-2273-450f-9675-23471fc5fe6b",
+              "b7de6f81-b260-40c8-92b9-87dbd1e2b061",
+              "355cd353-5e41-45d6-8e48-5ccb5c478f0b"
             ],
             "failures": [],
             "pending": [],
@@ -309,7 +309,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "74854071-e436-4bdb-b68d-c893b085accc",
+            "uuid": "cb034d2d-d7e7-4ffa-9afe-7b9fd42ebf99",
             "title": "#remove()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
             "file": "/src/datastore/index.spec.ts",
@@ -325,7 +325,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "25f205d2-d886-4fc6-b120-19c9144b8d5c",
+                "uuid": "6ef4ffd3-1fec-467e-8f6c-8d5b970074e6",
                 "isHook": true,
                 "skipped": false
               }
@@ -345,7 +345,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "f5de564c-4663-47be-8d3f-fbd79e5d57d0",
+                "uuid": "0dbe7c63-23b7-4333-8e1d-0b54517c7ce4",
                 "isHook": false,
                 "skipped": false
               },
@@ -353,7 +353,7 @@
                 "title": "should length return 8 when remove index 8",
                 "fullTitle": "DataStore<T> #remove() should length return 8 when remove index 8",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -362,26 +362,26 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "c85fa81d-8cb5-47d6-8b8b-7f06026cc7c0",
+                "uuid": "7d18774b-db66-463a-9398-974fc785ae2b",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "f5de564c-4663-47be-8d3f-fbd79e5d57d0",
-              "c85fa81d-8cb5-47d6-8b8b-7f06026cc7c0"
+              "0dbe7c63-23b7-4333-8e1d-0b54517c7ce4",
+              "7d18774b-db66-463a-9398-974fc785ae2b"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 2,
+            "duration": 1,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "425dbb00-02a6-4d91-8438-ce0aaa3e98b8",
+            "uuid": "57a52281-a526-42bf-8e75-4d5706a4e330",
             "title": "#isEmpty()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
             "file": "/src/datastore/index.spec.ts",
@@ -397,7 +397,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "a59e35c0-93fe-4a87-9929-e8c4f3c1cada",
+                "uuid": "b3db9b20-c084-4fe5-830a-0daffc5f6b06",
                 "isHook": true,
                 "skipped": false
               }
@@ -417,7 +417,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2d5ba358-a90d-4d88-a263-67aac21b909b",
+                "uuid": "24588d1b-78c4-4c0a-a225-e8317e122b85",
                 "isHook": false,
                 "skipped": false
               },
@@ -434,15 +434,15 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2d04109e-49e5-4586-a138-cf36d01874cc",
+                "uuid": "d2b769cb-8697-4c9f-9ead-19e2f7894660",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "2d5ba358-a90d-4d88-a263-67aac21b909b",
-              "2d04109e-49e5-4586-a138-cf36d01874cc"
+              "24588d1b-78c4-4c0a-a225-e8317e122b85",
+              "d2b769cb-8697-4c9f-9ead-19e2f7894660"
             ],
             "failures": [],
             "pending": [],
@@ -453,7 +453,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "5f1599a7-bad2-4eb7-8a94-01de49b2dce5",
+            "uuid": "5725a315-c40b-4a09-9416-ef56307a0648",
             "title": "#length()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/datastore/index.spec.ts",
             "file": "/src/datastore/index.spec.ts",
@@ -469,7 +469,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "f0b17903-4be9-4d1f-b1d8-ed5e05262fee",
+                "uuid": "ef0ab8b8-b891-4e2a-9308-69dd1afa3fd0",
                 "isHook": true,
                 "skipped": false
               }
@@ -480,7 +480,7 @@
                 "title": "should return 0 when List is empty",
                 "fullTitle": "DataStore<T> #length() should return 0 when List is empty",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -489,7 +489,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "8518e9b9-9bf1-4481-9e36-e9215ffd1c3b",
+                "uuid": "b7cdaf3c-844a-4c41-a8e7-0207a68d2058",
                 "isHook": false,
                 "skipped": false
               },
@@ -506,20 +506,20 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "3092fe42-592f-4734-9dda-b164f99de69f",
+                "uuid": "159fd5ad-51ce-4f83-8965-d0deee984258",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "8518e9b9-9bf1-4481-9e36-e9215ffd1c3b",
-              "3092fe42-592f-4734-9dda-b164f99de69f"
+              "b7cdaf3c-844a-4c41-a8e7-0207a68d2058",
+              "159fd5ad-51ce-4f83-8965-d0deee984258"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -535,7 +535,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "6a81e548-1f1d-4649-83cb-ee64e12063f5",
+        "uuid": "c4d8c7f6-7a6f-4724-b53d-190da5754c83",
         "title": "Hello function",
         "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/hello/hello.spec.ts",
         "file": "/src/hello/hello.spec.ts",
@@ -546,7 +546,7 @@
             "title": "should return hello world",
             "fullTitle": "Hello function should return hello world",
             "timedOut": false,
-            "duration": 1,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -555,25 +555,25 @@
             "code": ";",
             "err": {},
             "isRoot": false,
-            "uuid": "903f6615-cf5d-4675-9b7a-ca5e43d26dc0",
+            "uuid": "9e93766e-ab85-4956-98e1-9542c1ade2db",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "903f6615-cf5d-4675-9b7a-ca5e43d26dc0"
+          "9e93766e-ab85-4956-98e1-9542c1ade2db"
         ],
         "failures": [],
         "pending": [],
         "skipped": [],
-        "duration": 1,
+        "duration": 0,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000
       },
       {
-        "uuid": "c3be0a43-99c9-42d4-aa3d-665ceb9659d5",
+        "uuid": "6e73e479-3896-4e4e-93bf-3219e0d4a85f",
         "title": "List<T>",
         "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/list/list.spec.ts",
         "file": "/src/list/list.spec.ts",
@@ -582,7 +582,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "dba37fae-754e-474e-9dc4-451123005fe9",
+            "uuid": "0f0d2f14-1b98-4229-b0a7-020f0e3387c2",
             "title": "#getName()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/list/list.spec.ts",
             "file": "/src/list/list.spec.ts",
@@ -593,7 +593,7 @@
                 "title": "should return name List<T>",
                 "fullTitle": "List<T> #getName() should return name List<T>",
                 "timedOut": false,
-                "duration": 0,
+                "duration": 1,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -602,25 +602,25 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "c1794a82-c380-4117-b2a0-d51f194f8436",
+                "uuid": "a4f4a209-289f-4df6-8b31-3f2aaf373326",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "c1794a82-c380-4117-b2a0-d51f194f8436"
+              "a4f4a209-289f-4df6-8b31-3f2aaf373326"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 0,
+            "duration": 1,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "c54c623c-c4e8-468e-a73f-4c1fc372c8b4",
+            "uuid": "57c40394-46fc-4096-973a-da38dd13f3be",
             "title": "#add()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/list/list.spec.ts",
             "file": "/src/list/list.spec.ts",
@@ -636,7 +636,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2c7097b5-d4c8-47db-8be7-39241edca538",
+                "uuid": "d3f955a5-de3c-4685-bcb9-0edc9ca3739a",
                 "isHook": true,
                 "skipped": false
               }
@@ -656,7 +656,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "ba253ec0-969a-4f6e-980d-e9ff445d5b0d",
+                "uuid": "57219111-7553-4d30-94ed-2f2e203684df",
                 "isHook": false,
                 "skipped": false
               },
@@ -673,7 +673,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2f9c1766-03be-4feb-b3e5-44ac7e8903a4",
+                "uuid": "658c2ea5-f81c-478d-968c-d0bbcf1cc122",
                 "isHook": false,
                 "skipped": false
               },
@@ -690,7 +690,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "8b4818b6-aac0-4be2-83ba-5af7ce97afb1",
+                "uuid": "6e6c02b0-0be9-4dab-a40e-11ebb6d8e97a",
                 "isHook": false,
                 "skipped": false
               },
@@ -707,7 +707,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "99635770-329a-410d-b26d-cd125e6e7062",
+                "uuid": "a1a1285e-81ca-4291-a48f-2e35ac3d8483",
                 "isHook": false,
                 "skipped": false
               },
@@ -724,7 +724,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "e500aff1-0030-4408-9628-5a006abd5b2c",
+                "uuid": "476eed33-95da-4d25-964c-cf6d906f4639",
                 "isHook": false,
                 "skipped": false
               },
@@ -741,19 +741,19 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "458173ae-bb3b-4b47-b706-847372cad2da",
+                "uuid": "120dcd8c-1caa-4c77-bb44-a7c0b88e49fe",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "ba253ec0-969a-4f6e-980d-e9ff445d5b0d",
-              "2f9c1766-03be-4feb-b3e5-44ac7e8903a4",
-              "8b4818b6-aac0-4be2-83ba-5af7ce97afb1",
-              "99635770-329a-410d-b26d-cd125e6e7062",
-              "e500aff1-0030-4408-9628-5a006abd5b2c",
-              "458173ae-bb3b-4b47-b706-847372cad2da"
+              "57219111-7553-4d30-94ed-2f2e203684df",
+              "658c2ea5-f81c-478d-968c-d0bbcf1cc122",
+              "6e6c02b0-0be9-4dab-a40e-11ebb6d8e97a",
+              "a1a1285e-81ca-4291-a48f-2e35ac3d8483",
+              "476eed33-95da-4d25-964c-cf6d906f4639",
+              "120dcd8c-1caa-4c77-bb44-a7c0b88e49fe"
             ],
             "failures": [],
             "pending": [],
@@ -764,7 +764,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "51619cb9-4fbd-47cc-aab6-5cb2c9c7dc4a",
+            "uuid": "7a9778f4-0970-4a89-bb0d-b70d536bee59",
             "title": "#remove()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/list/list.spec.ts",
             "file": "/src/list/list.spec.ts",
@@ -780,7 +780,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2e021811-fc69-416e-ac83-522ff17fc3ba",
+                "uuid": "b9384e03-c9ad-4b83-8932-23cc20237383",
                 "isHook": true,
                 "skipped": false
               }
@@ -791,7 +791,7 @@
                 "title": "should size return 9 when remove index 9",
                 "fullTitle": "List<T> #remove() should size return 9 when remove index 9",
                 "timedOut": false,
-                "duration": 2,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -800,7 +800,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "77272bf8-dac6-4c2f-947b-a83c30dbd4a2",
+                "uuid": "408ce5ce-3d6a-4541-ae3e-5f4fa5e17314",
                 "isHook": false,
                 "skipped": false
               },
@@ -817,26 +817,26 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "7d3eae3a-9eff-4ae3-b41c-c329a82b7586",
+                "uuid": "1b0e8f5f-8ca5-402e-9c15-5197b0434a5a",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "77272bf8-dac6-4c2f-947b-a83c30dbd4a2",
-              "7d3eae3a-9eff-4ae3-b41c-c329a82b7586"
+              "408ce5ce-3d6a-4541-ae3e-5f4fa5e17314",
+              "1b0e8f5f-8ca5-402e-9c15-5197b0434a5a"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 2,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "e6ce0d1b-5b24-4dde-b5a0-ec929fce23c0",
+            "uuid": "8abe4202-7b90-4127-b72a-b4006671baf6",
             "title": "#isEmpty()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/list/list.spec.ts",
             "file": "/src/list/list.spec.ts",
@@ -852,7 +852,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "0f3d0751-2279-4c44-ae4b-e30f8089112d",
+                "uuid": "a635787f-92fb-476a-bd8f-65634573ef88",
                 "isHook": true,
                 "skipped": false
               }
@@ -863,7 +863,7 @@
                 "title": "should return false when List has items",
                 "fullTitle": "List<T> #isEmpty() should return false when List has items",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -872,7 +872,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "0cb9b66d-91f6-4baf-abde-fcdf0c18b908",
+                "uuid": "139d2a8a-c097-4ff3-99c2-21b5bb681f82",
                 "isHook": false,
                 "skipped": false
               },
@@ -889,26 +889,26 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "6d267586-be62-43fb-8455-6a0588b78cf9",
+                "uuid": "29e2fac0-27b1-42e8-bf0a-689a2f86ada0",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "0cb9b66d-91f6-4baf-abde-fcdf0c18b908",
-              "6d267586-be62-43fb-8455-6a0588b78cf9"
+              "139d2a8a-c097-4ff3-99c2-21b5bb681f82",
+              "29e2fac0-27b1-42e8-bf0a-689a2f86ada0"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "9a677d75-e41a-4f56-b98d-404b13e1e07b",
+            "uuid": "2b680f5e-7077-4287-b565-7ce14ebcfde1",
             "title": "#size()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/list/list.spec.ts",
             "file": "/src/list/list.spec.ts",
@@ -924,7 +924,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "994d871f-a34c-45cc-85b8-7f9afc5a9abb",
+                "uuid": "7bcfe857-e202-4bce-b19b-80407f6ed820",
                 "isHook": true,
                 "skipped": false
               }
@@ -935,7 +935,7 @@
                 "title": "should return 0 when List is empty",
                 "fullTitle": "List<T> #size() should return 0 when List is empty",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -944,7 +944,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "aef4fdc9-61d1-45dc-9780-f8ac449a32bc",
+                "uuid": "f26d5508-b630-49c7-86f3-35cca52152a5",
                 "isHook": false,
                 "skipped": false
               },
@@ -961,20 +961,20 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "4d6a7652-20b3-4e7f-abf3-b0a0b4cfbc9a",
+                "uuid": "8946bdbf-8c36-40ef-b17b-934bebd2b95d",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "aef4fdc9-61d1-45dc-9780-f8ac449a32bc",
-              "4d6a7652-20b3-4e7f-abf3-b0a0b4cfbc9a"
+              "f26d5508-b630-49c7-86f3-35cca52152a5",
+              "8946bdbf-8c36-40ef-b17b-934bebd2b95d"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -990,7 +990,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "677057ca-91e4-480c-95e7-8c7dad24cb14",
+        "uuid": "2b0cf397-d6db-4354-ac2d-41d4997e4693",
         "title": "Queue<T>",
         "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
         "file": "/src/queue/index.spec.ts",
@@ -999,7 +999,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "6075cd5e-62ed-4dc0-b2a8-86f734f4b77a",
+            "uuid": "776bdc0a-9071-4265-9a5e-653cd2537c7b",
             "title": "#enqueue()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
             "file": "/src/queue/index.spec.ts",
@@ -1019,7 +1019,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "a162a2cd-a393-4fc2-946b-66fca92d0e9b",
+                "uuid": "dfc6fb49-340d-4684-92d1-bf1b202b1b25",
                 "isHook": false,
                 "skipped": false
               },
@@ -1036,15 +1036,15 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "38bf6170-0237-44b2-8cab-9df49c4d18a2",
+                "uuid": "6179746d-9926-4e59-a018-67f1b1d64b18",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "a162a2cd-a393-4fc2-946b-66fca92d0e9b",
-              "38bf6170-0237-44b2-8cab-9df49c4d18a2"
+              "dfc6fb49-340d-4684-92d1-bf1b202b1b25",
+              "6179746d-9926-4e59-a018-67f1b1d64b18"
             ],
             "failures": [],
             "pending": [],
@@ -1055,7 +1055,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "59f1f833-115f-49c9-b11b-715c083476d3",
+            "uuid": "a8ae120d-2b51-4312-97f5-7bab41b8a415",
             "title": "#dequeue()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
             "file": "/src/queue/index.spec.ts",
@@ -1075,7 +1075,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "25247fd5-e07b-458e-b935-452d56da6443",
+                "uuid": "f2a37ce2-0677-4ac4-b4b4-fba4e096de7e",
                 "isHook": false,
                 "skipped": false
               },
@@ -1092,14 +1092,14 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "cfbb1ae9-e61b-4825-bb3e-74d84b7e565b",
+                "uuid": "9673b7d4-da06-402e-afde-876d7b568a4f",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [
               {
-                "uuid": "8471fab8-8148-429b-8fff-afbcb88b6e41",
+                "uuid": "1fa89e32-a225-482c-8a6e-a0137003f5a5",
                 "title": "#dequeue(): The quick brown fox",
                 "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
                 "file": "/src/queue/index.spec.ts",
@@ -1115,7 +1115,7 @@
                     "code": ";",
                     "err": {},
                     "isRoot": false,
-                    "uuid": "41a5d27c-c9ff-40b6-a8d4-377b5bf1c484",
+                    "uuid": "cc381e94-b39a-43fe-a248-77b81078b631",
                     "isHook": true,
                     "skipped": false
                   }
@@ -1135,7 +1135,7 @@
                     "code": ";",
                     "err": {},
                     "isRoot": false,
-                    "uuid": "d2166f22-e724-4d07-82c1-2e865eb84243",
+                    "uuid": "f72f1295-0e08-4820-93a8-9aa693c1e0b2",
                     "isHook": false,
                     "skipped": false
                   },
@@ -1152,7 +1152,7 @@
                     "code": ";",
                     "err": {},
                     "isRoot": false,
-                    "uuid": "b65d77b5-cdf5-487b-81f3-3d2e253b2cb8",
+                    "uuid": "999265d4-e7e7-4ffe-ad7c-4188b7381aaa",
                     "isHook": false,
                     "skipped": false
                   },
@@ -1169,7 +1169,7 @@
                     "code": ";",
                     "err": {},
                     "isRoot": false,
-                    "uuid": "ff0246ec-b9a9-4ec7-92e8-190a0a9017de",
+                    "uuid": "6c056f46-aef7-4724-8fc5-b7cbde533ddc",
                     "isHook": false,
                     "skipped": false
                   },
@@ -1186,17 +1186,17 @@
                     "code": ";",
                     "err": {},
                     "isRoot": false,
-                    "uuid": "0d4209fb-023a-4679-b7ce-b2aa5cfcb4c9",
+                    "uuid": "81f040f0-c58b-44ee-a469-cb4577fee51b",
                     "isHook": false,
                     "skipped": false
                   }
                 ],
                 "suites": [],
                 "passes": [
-                  "d2166f22-e724-4d07-82c1-2e865eb84243",
-                  "b65d77b5-cdf5-487b-81f3-3d2e253b2cb8",
-                  "ff0246ec-b9a9-4ec7-92e8-190a0a9017de",
-                  "0d4209fb-023a-4679-b7ce-b2aa5cfcb4c9"
+                  "f72f1295-0e08-4820-93a8-9aa693c1e0b2",
+                  "999265d4-e7e7-4ffe-ad7c-4188b7381aaa",
+                  "6c056f46-aef7-4724-8fc5-b7cbde533ddc",
+                  "81f040f0-c58b-44ee-a469-cb4577fee51b"
                 ],
                 "failures": [],
                 "pending": [],
@@ -1208,8 +1208,8 @@
               }
             ],
             "passes": [
-              "25247fd5-e07b-458e-b935-452d56da6443",
-              "cfbb1ae9-e61b-4825-bb3e-74d84b7e565b"
+              "f2a37ce2-0677-4ac4-b4b4-fba4e096de7e",
+              "9673b7d4-da06-402e-afde-876d7b568a4f"
             ],
             "failures": [],
             "pending": [],
@@ -1220,7 +1220,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "474f68fd-62f6-4b65-ab16-8febe34198ec",
+            "uuid": "1913f29d-5f7e-4abc-83f8-756ddea76163",
             "title": "#isEmpty()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
             "file": "/src/queue/index.spec.ts",
@@ -1231,7 +1231,7 @@
                 "title": "should return true when queue is empty",
                 "fullTitle": "Queue<T> #isEmpty() should return true when queue is empty",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -1240,7 +1240,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "6704c55f-5266-42e9-b80c-db9d1881f46e",
+                "uuid": "4fc04ccd-f2bc-43fc-b0be-d77200a8ea12",
                 "isHook": false,
                 "skipped": false
               },
@@ -1257,26 +1257,26 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "1f28f6e5-8ae8-43d5-b576-4c4ee5639652",
+                "uuid": "73e7f935-2c25-41b1-aee3-463a20f4068e",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "6704c55f-5266-42e9-b80c-db9d1881f46e",
-              "1f28f6e5-8ae8-43d5-b576-4c4ee5639652"
+              "4fc04ccd-f2bc-43fc-b0be-d77200a8ea12",
+              "73e7f935-2c25-41b1-aee3-463a20f4068e"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "312d7542-1773-4a82-8a60-f4679d47d379",
+            "uuid": "49418502-367c-4737-ad9b-05e7782055e7",
             "title": "#length()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
             "file": "/src/queue/index.spec.ts",
@@ -1296,7 +1296,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "a705775c-ddd9-4ca1-8764-e77179ae8111",
+                "uuid": "97bc6b50-b8c1-4085-a25d-36c97f5afb43",
                 "isHook": false,
                 "skipped": false
               },
@@ -1313,15 +1313,15 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "73fc0a7d-bad8-4fc7-90a2-82bf459502d4",
+                "uuid": "77efd2e2-3d04-45f6-9e56-9fef3456a156",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "a705775c-ddd9-4ca1-8764-e77179ae8111",
-              "73fc0a7d-bad8-4fc7-90a2-82bf459502d4"
+              "97bc6b50-b8c1-4085-a25d-36c97f5afb43",
+              "77efd2e2-3d04-45f6-9e56-9fef3456a156"
             ],
             "failures": [],
             "pending": [],
@@ -1332,7 +1332,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "c6bcd308-3999-4370-a993-cd9ceca38bf2",
+            "uuid": "3b7f736b-d738-4415-a751-e945f7f80580",
             "title": "#clear()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/queue/index.spec.ts",
             "file": "/src/queue/index.spec.ts",
@@ -1343,7 +1343,7 @@
                 "title": "should return true when queue called clear",
                 "fullTitle": "Queue<T> #clear() should return true when queue called clear",
                 "timedOut": false,
-                "duration": 0,
+                "duration": 1,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -1352,7 +1352,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "4ec0688c-53f9-42bb-a521-53590a7b649b",
+                "uuid": "9cae3332-6bc8-4cfd-8d06-b142d8ebe569",
                 "isHook": false,
                 "skipped": false
               },
@@ -1369,20 +1369,20 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "0d7698c0-eef8-4657-a2d5-595121b9906a",
+                "uuid": "26c2d15e-b580-4a3a-8061-4bf78be4768e",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "4ec0688c-53f9-42bb-a521-53590a7b649b",
-              "0d7698c0-eef8-4657-a2d5-595121b9906a"
+              "9cae3332-6bc8-4cfd-8d06-b142d8ebe569",
+              "26c2d15e-b580-4a3a-8061-4bf78be4768e"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 0,
+            "duration": 1,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -1398,7 +1398,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "c1636d94-8d9d-4117-b0e5-533577fb7021",
+        "uuid": "57216e16-0a5d-4ede-ad88-ed18384e625f",
         "title": "Stack<T>",
         "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/stack/index.spec.ts",
         "file": "/src/stack/index.spec.ts",
@@ -1407,7 +1407,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "2e58dc9d-8887-4daf-87af-040567a07091",
+            "uuid": "41106230-9308-420b-a102-98930cf3fd62",
             "title": "#push()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/stack/index.spec.ts",
             "file": "/src/stack/index.spec.ts",
@@ -1418,7 +1418,7 @@
                 "title": "should peek return test when the test pushed",
                 "fullTitle": "Stack<T> #push() should peek return test when the test pushed",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -1427,7 +1427,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "89a93bdd-dc13-4bea-8168-1df68cb92bcd",
+                "uuid": "1b8c8033-a88e-4c65-acb2-5874745d5cf2",
                 "isHook": false,
                 "skipped": false
               },
@@ -1444,26 +1444,26 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "a2a93b23-c26d-4ff6-9c24-19d44b7016c7",
+                "uuid": "716b87ca-dd08-46bd-8ea0-0fc23f99ac4a",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "89a93bdd-dc13-4bea-8168-1df68cb92bcd",
-              "a2a93b23-c26d-4ff6-9c24-19d44b7016c7"
+              "1b8c8033-a88e-4c65-acb2-5874745d5cf2",
+              "716b87ca-dd08-46bd-8ea0-0fc23f99ac4a"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "7ec8bf00-2643-496b-8b0a-40db2c0e2b43",
+            "uuid": "7f3cc386-a03d-4fb1-9c63-6de70b73bedc",
             "title": "#pop()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/stack/index.spec.ts",
             "file": "/src/stack/index.spec.ts",
@@ -1474,7 +1474,7 @@
                 "title": "should throws Error [Stack overflow] when pop empty stack",
                 "fullTitle": "Stack<T> #pop() should throws Error [Stack overflow] when pop empty stack",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -1483,7 +1483,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "067cf6fe-38e4-4e36-9c13-9554ae81446c",
+                "uuid": "15a3013a-5216-4d5c-bd9a-74deaab2caa5",
                 "isHook": false,
                 "skipped": false
               },
@@ -1500,26 +1500,26 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "6a7bbc08-332d-4be3-8188-550efb9da9cb",
+                "uuid": "829073ed-800f-401d-a29a-7ece08e7c44a",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "067cf6fe-38e4-4e36-9c13-9554ae81446c",
-              "6a7bbc08-332d-4be3-8188-550efb9da9cb"
+              "15a3013a-5216-4d5c-bd9a-74deaab2caa5",
+              "829073ed-800f-401d-a29a-7ece08e7c44a"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "80285d31-68f2-495d-a232-ecfa391bbd7d",
+            "uuid": "f4fccd75-10c9-43ea-9034-4e92bfb85e05",
             "title": "#isEmpty()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/stack/index.spec.ts",
             "file": "/src/stack/index.spec.ts",
@@ -1539,7 +1539,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "b9c44dba-d635-43b4-ab2b-01c4b64511c5",
+                "uuid": "07dd45f5-1b23-47c2-977f-5b470bf5571f",
                 "isHook": false,
                 "skipped": false
               },
@@ -1556,15 +1556,15 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "e8e6a7ef-b582-4712-88c2-439b12c5fa4e",
+                "uuid": "b9680a21-b85d-44c1-99e0-afda655efa52",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "b9c44dba-d635-43b4-ab2b-01c4b64511c5",
-              "e8e6a7ef-b582-4712-88c2-439b12c5fa4e"
+              "07dd45f5-1b23-47c2-977f-5b470bf5571f",
+              "b9680a21-b85d-44c1-99e0-afda655efa52"
             ],
             "failures": [],
             "pending": [],
@@ -1575,7 +1575,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "8cdb1da4-9f22-470d-a5ee-62b4b3ca3e68",
+            "uuid": "05073ede-2d5a-42d9-9209-025729db0cbe",
             "title": "#size()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/stack/index.spec.ts",
             "file": "/src/stack/index.spec.ts",
@@ -1595,7 +1595,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "72c36b46-04c2-4810-badd-79a4c6b063e4",
+                "uuid": "9c11e3ae-e244-4f66-8205-9b28637ff5d6",
                 "isHook": false,
                 "skipped": false
               },
@@ -1612,15 +1612,15 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "08bf1059-7722-489a-9532-8fa38de7b831",
+                "uuid": "4caf7c8d-e396-4aa4-b2ab-ffbbde5a3259",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "72c36b46-04c2-4810-badd-79a4c6b063e4",
-              "08bf1059-7722-489a-9532-8fa38de7b831"
+              "9c11e3ae-e244-4f66-8205-9b28637ff5d6",
+              "4caf7c8d-e396-4aa4-b2ab-ffbbde5a3259"
             ],
             "failures": [],
             "pending": [],
@@ -1631,7 +1631,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "b79444de-73cb-41a1-8274-4c3a0837d754",
+            "uuid": "9205911e-9269-4efc-9ce8-9519ee5f6538",
             "title": "#clear()",
             "fullFile": "/home/travis/build/vandbt/typescript-datastructure/src/stack/index.spec.ts",
             "file": "/src/stack/index.spec.ts",
@@ -1642,7 +1642,7 @@
                 "title": "should return true when stack called clear",
                 "fullTitle": "Stack<T> #clear() should return true when stack called clear",
                 "timedOut": false,
-                "duration": 1,
+                "duration": 0,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -1651,7 +1651,7 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "d365d374-43f8-48cc-9f3b-16d480c604ea",
+                "uuid": "85754765-bbc0-403b-931d-2fcf67268718",
                 "isHook": false,
                 "skipped": false
               },
@@ -1668,20 +1668,20 @@
                 "code": ";",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2741f55f-486f-4cfb-a387-44c36e520d63",
+                "uuid": "209a9930-7bee-4fed-8a81-3b94e4f0e758",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "d365d374-43f8-48cc-9f3b-16d480c604ea",
-              "2741f55f-486f-4cfb-a387-44c36e520d63"
+              "85754765-bbc0-403b-931d-2fcf67268718",
+              "209a9930-7bee-4fed-8a81-3b94e4f0e758"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 1,
+            "duration": 0,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
