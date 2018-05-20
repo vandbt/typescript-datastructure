@@ -2,6 +2,8 @@
 
 This is Typescript Data Structure project, but It's not aim to Fast, Light, and Powerful implementation.
 
+![building status](https://api.travis-ci.org/vandbt/typescript-datastructure.svg)
+
 ## Motivation
 This project aims to show how Typescript (Typed Language) solves well-known software problem. That's why This project implements data structures.
 
@@ -11,7 +13,7 @@ This project want shows modern development methodology TDD(Test-Driven Developme
 
 This project want shows How to manage software health continuously.
 
-Build / Test Automation ( with Code coverage Report) would shows current status of software health.
+Build / Test Automation ( with Code coverage Report) would shows current status of software healthy and robust.
  
 
 ## Data Structures
@@ -24,12 +26,12 @@ Build / Test Automation ( with Code coverage Report) would shows current status 
 - [x] Queue<T> Implementations
 - [x] List<T> Test Specs
 - [x] List<T> Implementations
-- [] LinkedList<T> Test Specs
-- [] LinkedList<T> Implementations
-- [] Search Algorithm Test Specs
-- [] Search Algorithm Implementations
-- [] Sort Algorithm Test Specs
-- [] Sort Algorithm Implementations
+- [ ] LinkedList<T> Test Specs
+- [ ] LinkedList<T> Implementations
+- [ ] Search Algorithm Test Specs
+- [ ] Search Algorithm Implementations
+- [ ] Sort Algorithm Test Specs
+- [ ] Sort Algorithm Implementations
 
 #### about type DataStore<T>
 DataStore<T> is 'Abstraction of data storage' generic type of this project.
